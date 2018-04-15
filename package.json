@@ -1,15 +1,11 @@
 {
-  "name": "vue-video-player",
-  "description": "A Vue.js project",
+  "name": "@martin/vue-video-player",
+  "description": "Simple video player for vuejs",
   "version": "0.0.1",
   "author": "Martin Badin <martin.badin@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
-  },
-  "dependencies": {
-    "vue": "^2.5.16"
   },
   "browserslist": ["last 3 versions", "not ie <= 8"],
   "devDependencies": {
