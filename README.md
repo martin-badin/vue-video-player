@@ -1,4 +1,4 @@
-# vue-video-player
+# @martin.badin/vue-video-player
 
 > Simple video player for vuejs
 
