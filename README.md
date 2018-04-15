@@ -2,6 +2,8 @@
 
 > Simple video player for vuejs
 
+![Vue Video Player](./screenshot.png)
+
 ## Instalation
 
 ```js

@@ -10,7 +10,7 @@
       class="video__progress__button"
       @click="onToggle"
     >
-      <i :class="$refs.videoRef && $refs.videoRef.paused ? 'icon-play' : 'icon-pause'" />
+      <i :class="$refs.videoRef && $refs.videoRef.paused ? 'video-icon-play' : 'video-icon-pause'" />
     </div>
 
     <div
@@ -28,7 +28,7 @@
       class="video__progress__button video__progress__button--fullscreen"
       @click="onFullScreen"
     >
-      <i :class="{ 'icon-resize-full': true }" />
+      <i class="video-icon-resize-full" />
     </div>
   </div>
 </template>

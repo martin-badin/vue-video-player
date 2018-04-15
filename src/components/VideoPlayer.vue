@@ -11,7 +11,7 @@
       <video-button
         v-if="!firstClick"
         class="video__button--bg"
-        icon-class="icon-play"
+        icon-class="video-icon-play-large"
       />
 
       <transition
@@ -21,7 +21,7 @@
       >
         <video-button
           v-show="!$refs.videoRef.paused"
-          :icon-class="!$refs.videoRef.paused ? 'icon-play' : 'icon-pause'"
+          :icon-class="!$refs.videoRef.paused ? 'video-icon-play-large' : 'video-icon-pause-large'"
         />
       </transition>
 
@@ -165,15 +165,46 @@ video {
   border-radius: 50%;
   padding-left: 8px;
   opacity: 0;
+  box-sizing: border-box;
 
   i {
     display: block;
+    transform: translate(0, -50%);
+    position: relative;
+    top: 50%;
   }
 }
 
 .video__button--bg {
   opacity: 1;
   background-color: rgba(white, 0.4);
+}
+
+[class^="video-icon-"]:before,
+[class*="video-icon-"]:before {
+  display: block;
+  font-size: 0;
+  line-height: 0;
+}
+
+.video-icon-play:before {
+  content: url("../icons/play.svg");
+}
+
+.video-icon-pause:before {
+  content: url("../icons/pause.svg");
+}
+
+.video-icon-play-large:before {
+  content: url("../icons/play-large.svg");
+}
+
+.video-icon-pause-large:before {
+  content: url("../icons/pause-large.svg");
+}
+
+.video-icon-resize-full {
+  content: url("../icons/resize-full.svg");
 }
 
 .video-blink-button-enter-active,
