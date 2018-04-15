@@ -1,16 +1,13 @@
 {
   "name": "@martin.badin/vue-video-player",
   "description": "Simple video player for vuejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Martin Badin <martin.badin@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
-  "browserslist": [
-    "last 3 versions",
-    "not ie <= 8"
-  ],
+  "browserslist": ["last 3 versions", "not ie <= 8"],
   "devDependencies": {
     "autoprefixer": "^8.2.0",
     "babel-core": "^6.26.0",
