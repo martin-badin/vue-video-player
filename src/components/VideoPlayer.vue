@@ -204,7 +204,7 @@ video {
 }
 
 .video-icon-resize-full {
-  content: url("../icons/resize-full.svg");
+  content: url("../icons/maximize.svg");
 }
 
 .video-blink-button-enter-active,
