@@ -1,13 +1,21 @@
 # vue-video-player
 
-> A Vue.js project
+> Simple video player for vuejs
 
-## Build Setup
+## Usage
 
-```bash
-# install dependencies
-npm install
+### Browser
 
-# build for production with minification
-npm run build
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script type="text/javascript" src="node_modules/vue-video-player/dist/vue-video-player.min.js"></script>
+<script type="text/javascript">
+  Vue.use(VueVideoPlayer);
+</script>
+```
+
+### Module
+
+```js
+import VueVideoPlayer from "vue-video-player";
 ```
