@@ -2,7 +2,9 @@
 
 > Simple video player for vuejs
 
-![Vue Video Player](./screenshot.png)
+| ![Vue Video Player](./screenshot.png) | ![Vue Video Player](./screenshot-2.png) |
+| ------------------------------------- | --------------------------------------- |
+
 
 ## Instalation
 
