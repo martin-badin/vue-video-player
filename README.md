@@ -2,6 +2,18 @@
 
 > Simple video player for vuejs
 
+## Instalation
+
+```js
+npm -i @martin.badin/vue-video-player
+```
+
+or
+
+```js
+yarn add @martin.badin/vue-video-player
+```
+
 ## Usage
 
 ### Browser
