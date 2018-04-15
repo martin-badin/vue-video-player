@@ -8,7 +8,7 @@
 
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script type="text/javascript" src="node_modules/vue-video-player/dist/vue-video-player.min.js"></script>
+<script type="text/javascript" src="node_modules/@martin.badin/vue-video-player/dist/vue-video-player.min.js"></script>
 <script type="text/javascript">
   Vue.use(VueVideoPlayer);
 </script>
@@ -17,5 +17,5 @@
 ### Module
 
 ```js
-import VueVideoPlayer from "vue-video-player";
+import VueVideoPlayer from "@martin.badin/vue-video-player";
 ```
