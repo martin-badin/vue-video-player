@@ -1,4 +1,4 @@
-# @martin.badin/vue-video-player
+# vuejs-video-player
 
 > Simple video player for vuejs
 
@@ -9,13 +9,13 @@
 ## Instalation
 
 ```js
-npm -i @martin.badin/vue-video-player
+npm -i vuejs-video-player
 ```
 
 or
 
 ```js
-yarn add @martin.badin/vue-video-player
+yarn add vuejs-video-player
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ yarn add @martin.badin/vue-video-player
 
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script type="text/javascript" src="node_modules/@martin.badin/vue-video-player/dist/vue-video-player.min.js"></script>
+<script type="text/javascript" src="node_modules/vuejs-video-player/dist/vuejs-video-player.min.js"></script>
 <script type="text/javascript">
   Vue.use(VueVideoPlayer);
 </script>
@@ -33,5 +33,5 @@ yarn add @martin.badin/vue-video-player
 ### Module
 
 ```js
-import VueVideoPlayer from "@martin.badin/vue-video-player";
+import VueVideoPlayer from "vuejs-video-player";
 ```

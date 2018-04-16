@@ -50,7 +50,7 @@ module.exports = [
   merge(config, {
     entry: path.resolve(__dirname + "/src/plugin.js"),
     output: {
-      filename: "vue-video-player.min.js",
+      filename: "vuejs-video-player.min.js",
       libraryTarget: "window",
       library: "VueVideoPlayer"
     }
@@ -58,7 +58,7 @@ module.exports = [
   merge(config, {
     entry: path.resolve(__dirname + "/src/components/VideoPlayer.vue"),
     output: {
-      filename: "vue-video-player.js",
+      filename: "vuejs-video-player.js",
       libraryTarget: "umd",
       library: "VueVideoPlayer",
       umdNamedDefine: true
