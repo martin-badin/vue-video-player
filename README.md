@@ -1,6 +1,6 @@
 # vuejs-video-player
 
-> Simple video player for vuejs
+> Simple video player for Vuejs
 
 | ![Vue Video Player](./screenshot.png) | ![Vue Video Player](./screenshot-2.png) |
 | ------------------------------------- | --------------------------------------- |
@@ -35,3 +35,8 @@ yarn add vuejs-video-player
 ```js
 import VueVideoPlayer from "vuejs-video-player";
 ```
+
+## Todo
+
+- [ ] Volume controls
+- [ ] SVG icons to HTML elements for easier editinng
