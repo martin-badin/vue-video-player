@@ -1,7 +1,7 @@
 {
   "name": "vuejs-video-player",
   "description": "Simple video player for vuejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Martin Badin <martin.badin@gmail.com>",
   "license": "MIT",
   "repository": {
