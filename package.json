@@ -1,13 +1,17 @@
 {
   "name": "vuejs-video-player",
   "description": "Simple video player for vuejs",
-  "version": "0.0.8",
+  "version": "0.0.1",
   "author": "Martin Badin <martin.badin@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/martin-badin/vue-video-player"
+    "url": "git+https://github.com/martin-badin/vue-video-player.git"
   },
+  "bugs": {
+    "url": "https://github.com/martin-badin/vue-video-player/issues"
+  },
+  "homepage": "https://github.com/martin-badin/vue-video-player/blob/master/README.md",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
